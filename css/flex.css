@@ -1,7 +1,13 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
 body {
    margin: 0;
+   padding: 0;
    background-color: none;
-   background-image: url(https://images4.alphacoders.com/600/thumb-1920-600528.png);
+   background-image: url(../teemo-1.png);
    background-repeat: no-repeat;
    background-attachment: fixed;
    background-position: center;
@@ -12,12 +18,14 @@ body {
 
 .mainHeader {
    display: flex;
+   justify-content: flex-start;
+   align-items: center;
 }
 
 .mainHeader,
 h2 {
    font-family: "Pacifico", cursive;
-   font-size: 40px;
+   font-size: 30px;
    margin-top: 19vh;
    color: black;
    margin-left: 47px;
@@ -27,15 +35,14 @@ h2 {
    padding: 10px 0;
    display: flex;
    justify-content: center;
+   align-items: center;
 }
 
 .form-row,
 .row-1 {
    flex: 1;
    height: 45px;
-   margin-top: 10px;
-   margin-left: 40px;
-   margin-right: 40px;
+   margin: 10px 40px 0 40px;
 }
 
 .row-1 {
@@ -45,7 +52,7 @@ h2 {
    padding-left: 35px;
    outline: none;
    font-size: 18px;
-   color: rgb(224, 34, 129);
+   color: rgba(224, 34, 129, 0.65);
 }
 
 .row-1:hover {
@@ -64,6 +71,8 @@ button {
    padding: 2px 30px;
    font-size: 16px;
    font-weight: 590;
+   justify-content: center;
+   align-items: center;
 }
 
 .row-2:hover,
